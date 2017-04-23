@@ -122,3 +122,19 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+
+# Add some custome fumctions
+# This one is from the YouTube video https://www.youtube.com/watch?v=y_vAFd7Uk5U
+# It updates the Linux system in one go
+update () {
+  echo "Starting full system update"
+  sudo apt update -qq
+  sudo dist-upgrade -yy
+  sudo apt-get autoremove -yy
+  echo "Update complete!"
+  return
+}
+export -f update
+
+
