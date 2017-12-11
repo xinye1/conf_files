@@ -14,6 +14,7 @@ Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'klen/python-mode'
+Plugin 'jalvesaq/Nvim-R'
 
 
 filetype plugin indent on
