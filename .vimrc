@@ -15,6 +15,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'klen/python-mode'
 Plugin 'jalvesaq/Nvim-R'
+Plugin 'morhetz/gruvbox'
 
 
 filetype plugin indent on
